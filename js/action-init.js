@@ -1,0 +1,1 @@
+fireauth.oob.OobHandler.initialize('#actionElement');

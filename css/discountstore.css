@@ -1,0 +1,77 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+/********************************************
+*   Project: Discount Store                 *
+*   Author: Vanderclin Rocha                *
+*   Date: 13/05/2022                        *
+*********************************************
+*   Github: https://github.com/Vanderclin   *
+*   Instagram: vanderclin_rocha             *
+********************************************/
+
+:root {
+    --bg-dark: #1F1F1F;
+    --purple-dark: #412B73;
+    --purple-light: #8257E6;
+    --pending-light: #FFC107;
+    --pending-dark: #CC9A05;
+    --denied-light: #DC3545;
+    --denied-dark: #B02A37;
+    --approved-light: #198754;
+    --approved-dark: #146C43;
+}
+
+@font-face {
+    font-family: "Cuprum-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Cuprum-Regular"), url("../assets/fonts/Cuprum-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #303030;
+    color: white;
+    font-family: Cuprum-Regular;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.auth-content {
+    margin-bottom: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: auto !important;
+}
+
+.auth-content h1 {
+    text-align: center;
+}
+
+
+.actionElement {
+    background-color: transparent;
+    color: white;
+}
+
+.animation-title {
+    letter-spacing: 0.0em;
+    text-transform: uppercase;
+}
+
+.animation-title .letter {
+    display: inline-block;
+    line-height: 1em;
+}
